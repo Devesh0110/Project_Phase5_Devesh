@@ -47,7 +47,7 @@ pipeline {
                      else \
                     echo OK; \
                  fi;);
-            docker container run --restart always --name phase5devesh -p 8081:8081 -d phase5devesh
+            docker container run --restart always --name phase5devesh -p 8082:8082 -d phase5devesh
             '''
             }
         }
